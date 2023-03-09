@@ -1,0 +1,61 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+}
+.carrosel{  
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 98vh;
+}
+#conteudo{
+    position: position;
+}
+#paragrafo{
+    position: absolute;
+    width: 400px;
+    left: 10%;
+    bottom: 35%;
+}
+#paragrafo img{
+    width: 500px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+#paragrafo p{
+    color: white;
+    text-align: justify;
+    font-size: 1.5em;
+    padding-left: 5px;
+}
+.select{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+
+}
+.select > .btn{
+    border-radius: 60%;
+    padding: 3px;
+    width: 10px;
+
+}
+.select > .btn:hover{
+    background-color: green;
+}
+.rede-sociais{
+    position: absolute;
+    width: 50px;
+    top: 40%;
+    right: 10px;  
+}
+.rede-sociais ul{
+    list-style: none;
+    box-sizing: border-box;
+}

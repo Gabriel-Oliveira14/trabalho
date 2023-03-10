@@ -1,7 +1,18 @@
-@media (max-width: 1450px) {
+@media (max-width: 1550px) {
     body{
         padding: 0px;
     }
-
+    #conteudo{
+        position: absolute;
+        left: 10%;
+    }
+}
+@media ( max-width: 780px) {
     
+    #conteudo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+    }
 }

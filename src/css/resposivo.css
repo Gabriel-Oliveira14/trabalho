@@ -4,14 +4,22 @@
     }
 }
 @media ( max-width: 720px) {
-    
+    #information #logo{
+        margin-top: 30px;
+    }
+    #information #paragrafo{
+        text-align: justify;
+    }
     #conteudo{
     display: flex;
     justify-content: center;
     align-items: center;
     }
+    .select{
+        margin-bottom: 30px;
+    }
 }
-@media (max-width: 400px){
+@media (max-width: 450px){
     body{
         padding: 40px;
 
@@ -37,4 +45,24 @@
         min-height: 70vh;
         gap: 50px;
     }
+}
+@media (max-width:589px) and (orientation: landscape) {
+    #information #logo {
+        width: 350px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #information #paragrafo{
+        font-size: 1.1em;
+    }
+    #conteudo{
+        position: fixed;
+    }
+    #conteudo .select{
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        margin-bottom: 20px;
+    }
+
 }

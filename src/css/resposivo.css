@@ -1,18 +1,39 @@
-@media (max-width: 1550px) {
+@media (max-width: 1280px) {
     body{
-        padding: 0px;
-    }
-    #conteudo{
-        position: absolute;
-        left: 10%;
+        padding: 0px 40px;
     }
 }
-@media ( max-width: 780px) {
+@media ( max-width: 720px) {
     
     #conteudo{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media (max-width: 450px){
+    body{
+        padding: 40px;
+
+    }
+    #information #logo{
+        width: 300px;
+    }
+    #information #paragrafo{
+        width: 100%;
+    }
+    .redes-sociais{
+        position: static;
+        min-height:auto;
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+    .redes-sociais .icone{
+        flex-direction: row;
+    }
+    #conteudo{
+        min-height: 70vh;
+        gap: 50px;
     }
 }

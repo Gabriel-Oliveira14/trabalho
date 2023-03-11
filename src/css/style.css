@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 body{
-    max-width: 1550px;
-    margin: 0px auto;
+    max-width: 1280px;
+    margin: 0 auto;
     font-family:  'Times New Roman', Times, serif;
 }
 main:after{
@@ -81,19 +81,29 @@ main:after{
 }
 .carrosel{
     position: fixed;
-    display: flex;
-    align-self: center;
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: 100vh;
     z-index: -1;
 }
 .carrosel .imagem{
     background-repeat: no-repeat;
     width: 100%;
+    height: 100vh;
     object-fit: cover;
     display: none;
+    animation: mudarImagem 0.7s;
 }
 .carrosel .imagem.ativo{
     display: block;
 
+}
+
+@keyframes mudarImagem {
+	from {
+		opacity: 0.85;
+	}
+	to {
+		opacity: 1;
+	}
 }

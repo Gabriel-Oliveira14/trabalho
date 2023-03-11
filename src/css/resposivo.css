@@ -39,7 +39,9 @@
         
     }
     .redes-sociais ul{
+        display: flex;
         flex-direction: row;
+        gap: 20px;
     }
     #conteudo{
         min-height: 70vh;

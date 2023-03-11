@@ -11,7 +11,7 @@
     align-items: center;
     }
 }
-@media (max-width: 450px){
+@media (max-width: 400px){
     body{
         padding: 40px;
 
@@ -21,6 +21,7 @@
     }
     #information #paragrafo{
         width: 100%;
+        text-align: center;
     }
     .redes-sociais{
         position: static;
@@ -29,7 +30,7 @@
         margin-top: 50px;
         
     }
-    .redes-sociais .icone{
+    .redes-sociais ul{
         flex-direction: row;
     }
     #conteudo{
